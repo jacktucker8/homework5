@@ -59,8 +59,8 @@ footer{
 }
 
 @keyframes logo_wiggle{
-    0% {top: 25px;}
-    100% {top: 420px;}
+    0% {width: 25px;}
+    100% {width: 420px;}
 
 } 
 
