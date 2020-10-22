@@ -73,6 +73,10 @@ footer{
 /* Cards! */
 .pricing{
     min-height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
     /*Your code here.*/
     /*Don't forget to vertically and horizontally alight the card*/
   
