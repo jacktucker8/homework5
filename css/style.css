@@ -67,6 +67,7 @@ footer{
   @keyframes mymove {
     from {top: 25px;}
     to {top: 420px;}
+    animation-duration: 15s;
 }
 
 }
