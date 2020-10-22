@@ -65,7 +65,6 @@ footer{
 } 
 
 #logo{
-  @keyframes mymove {
     animation: logo_wiggle 15s 1;
 }
 
