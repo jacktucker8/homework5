@@ -59,15 +59,14 @@ footer{
 }
 
 @keyframes logo_wiggle{
-  /*Your code here.*/
+    from {top: 25px;}
+    to {top: 420px;}
 
 } 
 
 #logo{
   @keyframes mymove {
-    from {top: 25px;}
-    to {top: 420px;}
-    animation-duration: 15s;
+    animation: logo_wiggle 15s 1;
 }
 
 }
