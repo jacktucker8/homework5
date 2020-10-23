@@ -149,11 +149,14 @@ footer{
 header{
   background: #fff;
   border-bottom: 3px solid #50C7C7;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
   /*Your  code here again.*/
 }
 
 .nav_links{
+  display: flex;
+  flex-wrap: wrap;
   /*Your code here again.*/
 }
 
