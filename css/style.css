@@ -156,7 +156,7 @@ header{
 
 .nav_links{
   display: flex;
-  flex-flow: column wrap;
+  flex-direction: column;
  
   /*Your code here again.*/
 }
