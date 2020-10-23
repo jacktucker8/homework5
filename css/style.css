@@ -157,6 +157,9 @@ header{
 .nav_links{
   display: flex;
   flex-direction: column;
+  float: none;
+  position: absolute;
+  top: 50%;
  
   /*Your code here again.*/
 }
