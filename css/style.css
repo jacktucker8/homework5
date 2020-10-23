@@ -173,6 +173,8 @@ header{
 
   /* Cards! */
   .card {
+    display: flex;
+    flex-basis: 225px;
     /*Your  code here again.*/
   }
 
@@ -183,10 +185,13 @@ header{
 
   /* Navbar */
   header{
+    display: flex;
+    flex-direction: row;
     /*Your code here again.*/  
   }
 
   .nav_links{
+    text-align: right;
     /*Your code here again.*/  
   }
 
