@@ -149,18 +149,13 @@ footer{
 header{
   background: #fff;
   border-bottom: 3px solid #50C7C7;
-  justify-content: center;
-  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
   /*Your  code here again.*/
 }
 
 .nav_links{
-  display: flex;
-  flex-direction: column;
-  float: none;
-  position: absolute;
-  top: 50%;
- 
+  flex-direction: row;
   /*Your code here again.*/
 }
 
