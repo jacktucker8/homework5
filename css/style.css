@@ -156,7 +156,7 @@ header{
 
 .nav_links{
   display: flex;
-  flex-wrap: wrap;
+  flex: none;
   /*Your code here again.*/
 }
 
@@ -194,7 +194,7 @@ header{
   }
 
   .nav_links{
-    text-align: right;
+    margin-left: auto
     /*Your code here again.*/  
   }
 
