@@ -220,6 +220,14 @@ header{
   .card {
     flex-basis: 200px;
   }
+  
+  body {
+    background-image: none;
+  }
+  
+  .gallery, h2 {
+    display: none;
+  }
   /*Your code here again.*/
   /*You will want four selectors*/  
 }
