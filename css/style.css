@@ -73,8 +73,10 @@ footer{
 .pricing{
     min-height: 500px;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
   
     /*Your code here.*/
     /*Don't forget to vertically and horizontally alight the card*/
@@ -87,6 +89,7 @@ footer{
   border-radius: 7px;
   padding: 0 0 50px 0;
   flex-basis: 400px;
+  flex-wrap: wrap;
   /*Your code here.*/
   /*Take a look at flex-basis*/
 
@@ -135,7 +138,8 @@ footer{
 .gallery{
   min-height: 600px;
   display: flex;
-  flex-wrap: nowrap;
+  justify-content: center;
+  flex-wrap: wrap;
   /*Your code here again.*/
 }
 
@@ -149,14 +153,15 @@ footer{
 header{
   background: #fff;
   border-bottom: 3px solid #50C7C7;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
   /*Your  code here again.*/
 }
 
 .nav_links{
   display: flex;
-  flex-basis: 100%
+  flex-direction: column;
   /*Your code here again.*/
 }
 
@@ -175,9 +180,16 @@ header{
 @media screen and (min-width: 850px){
 
   /* Cards! */
+  .pricing {
+    flex-direction: row;
+    flex-wrap: wrap;  
+  }
+  
   .card {
     display: flex;
     flex-basis: 225px;
+    flex-direction: column;
+    flex-wrap: wrap;
     /*Your  code here again.*/
   }
 
@@ -190,10 +202,12 @@ header{
   header{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     /*Your code here again.*/  
   }
 
   .nav_links{
+    flex-direction: row;
     /*Your code here again.*/  
   }
 
